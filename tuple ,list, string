@@ -1,0 +1,24 @@
+t=(10,20,30)
+l=[40,50,60]
+t=list(t)
+t[2]=70
+print(t)
+
+a=(3,4,5)
+b=[3,4,5]
+a=(24,)+a[1:]
+print(a)
+
+a=[1,3,5,7,9,2,4,6,8,12]
+print(a[0:])
+print(a[1:5:3])
+print(a[-3])
+print(a[-1::-1])
+
+str="Atiya ali"
+str=str[-1::-1]
+print(str)
+
+
+
+      
