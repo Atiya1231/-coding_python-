@@ -12,8 +12,6 @@ print(c)
 
 
 
-# for nested list we have to use deepcopy to acess the inner list as well, otherwise it will be shallow copy and changes in inner list of b will reflect in a as well
-import copy
 a=[[1,2],[3,4]]
 b=copy.deepcopy(a)
 b[0].append(10)
